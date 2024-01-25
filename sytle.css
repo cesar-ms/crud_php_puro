@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+h1{
+    margin: 40px;
+    text-align: center;
+}
+
+#formulario{
+    width: 600px;
+    margin: 0px auto;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 25px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input[type=submit] {
+    padding: 0px;
+}
+
+input[type=submit]:hover {
+    background: blueviolet;
+    color: white;
+}
+
+#tabla{
+    margin-top: 50px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    background: rgb(219, 180, 255);
+    border-radius: 10px;
+    border-collapse: collapse;
+    border: 1px solid rgb(237, 237, 237);
+}
+
+th,td {
+    vertical-align: top;
+    border-top: 2px solid #f0e1f5;
+    height: 35px;
+    line-height: 35px;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+}
+
+.btn_style{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.btn_style:first-child {
+    background: green;
+}
+.btn_style:last-child {
+    background: red;
+}
+
